@@ -76,17 +76,17 @@ Initial draw up of the landing page:
 
 #### Community/Eateries and Pubs Page:
 
-<img src='https://media.giphy.com/media/fsOr0ZKs12tzSWorsz/giphy.gif' />
+<img src='https://media.giphy.com/media/fsOr0ZKs12tzSWorsz/giphy.gif' height='360px' width='600px' />
 
-<img src='https://media.giphy.com/media/Za3OPd7yaXQuLKuvYy/giphy.gif' />
+<img src='https://media.giphy.com/media/Za3OPd7yaXQuLKuvYy/giphy.gif' height='360px' width='600px' />
 
 #### Books: 
 
-<img src='https://media.giphy.com/media/S4H6pDP9fxpFEs3vuB/giphy.gif' />
+<img src='https://media.giphy.com/media/S4H6pDP9fxpFEs3vuB/giphy.gif' height='360px' width='600px' />
 
 #### Movies
 
-<img src='https://media.giphy.com/media/WOkXRSVVf7nSoOwuWp/giphy.gif' />
+<img src='https://media.giphy.com/media/WOkXRSVVf7nSoOwuWp/giphy.gif' height='360px' width='600px' />
 
 ### Frontend
 
