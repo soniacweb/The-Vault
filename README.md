@@ -35,6 +35,9 @@ Aichi Chang, Lucy Casey, Sarah Wood, and Sonia Choudhury
 
 The Vault is a lifestyle blog and website, carefully curating articles covering trends in fashion, media, literature, culture, and eateries in London. Users can sign up, log in and leave comments and thoughts on articles. The intention was to also allow them to 'like' and 'pin' articles onto their own dashboard,which are features we'd like to implement.
 
+<img src='https://media.giphy.com/media/jTeawDs6hBHXyYkHtv/giphy.gif' />
+
+
 ### Technologies
 
 - React.js
@@ -64,6 +67,23 @@ The Vault is a lifestyle blog and website, carefully curating articles covering 
 Initial draw up of the landing page:
 
 <img src='https://i.imgur.com/rHxuzhU.png' height='400px' width='400px'/>
+
+
+#### Eatery:
+
+<img src='https://media.giphy.com/media/fsOr0ZKs12tzSWorsz/giphy.gif' />
+
+<img src='https://media.giphy.com/media/Za3OPd7yaXQuLKuvYy/giphy.gif' />
+
+#### Books: 
+
+<img src='https://media.giphy.com/media/S4H6pDP9fxpFEs3vuB/giphy.gif' />
+
+#### Movies
+
+<img src='https://media.giphy.com/media/WOkXRSVVf7nSoOwuWp/giphy.gif' />
+
+
 
 ### Frontend
 
