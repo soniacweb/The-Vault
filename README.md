@@ -23,18 +23,18 @@ Back:
 Front:
 - npm run: front
 
-###Timeframe
+### Timeframe
 
 1 week
 
-###Team
+### Team
 
 Aichi Chang, Lucy Casey, Sarah Wood, and Sonia Choudhury
 
 ###Overview
 The Vault is a lifestyle blog and website, carefully curating articles covering trends in fashion, media, literature, culture, and eateries in London. Users can sign up, log in and leave comments and thoughts on articles. The intention was to also allow them to 'like' and 'pin' articles onto their own dashboard,which are features we'd like to implement.
 
-###Technologies
+### Technologies
 
 - React.js
 - HTML
@@ -45,11 +45,11 @@ The Vault is a lifestyle blog and website, carefully curating articles covering 
 
 ### Components
 
-##Backend 
+## Backend 
 
 <img src='https://i.imgur.com/jo8PKFz.png' />
 
-##Frontend
+## Frontend
 
 <img src='https://i.imgur.com/qRZHsq7.png' />
 
@@ -58,8 +58,9 @@ The Vault is a lifestyle blog and website, carefully curating articles covering 
 - Hero image and title
 - Bottom Navbar
 
-###Wireframe
+### Wireframe
 
 <img src='https://i.imgur.com/rHxuzhU.png'/>
+
 ###
 ###
