@@ -86,7 +86,7 @@ Initial draw up of the landing page:
 
 #### Movies
 
-<img src='https://media.giphy.com/media/WOkXRSVVf7nSoOwuWp/giphy.gif' height='360px' width='600px' />
+<img src='https://media.giphy.com/media/ggo7Nwc2PbB5fMsnPe/giphy.gif' height='360px' width='600px' />
 
 ### Frontend
 
