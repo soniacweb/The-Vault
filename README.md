@@ -47,6 +47,11 @@ The Vault is a lifestyle blog and website, carefully curating articles covering 
 - Mongoose
 - MongoDB
 
+### Apis used:
+We created 6 individual apis for film, books, music, clothes, current, and our community page.
+
+We also used the Mapbox web services API for the community articles.
+
 ### Components
 
 ## Backend 
@@ -69,7 +74,7 @@ Initial draw up of the landing page:
 <img src='https://i.imgur.com/rHxuzhU.png' height='400px' width='400px'/>
 
 
-#### Eatery:
+#### Community/Eateries and Pubs Page:
 
 <img src='https://media.giphy.com/media/fsOr0ZKs12tzSWorsz/giphy.gif' />
 
@@ -82,8 +87,6 @@ Initial draw up of the landing page:
 #### Movies
 
 <img src='https://media.giphy.com/media/WOkXRSVVf7nSoOwuWp/giphy.gif' />
-
-
 
 ### Frontend
 
