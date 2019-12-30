@@ -31,7 +31,8 @@ Front:
 
 Aichi Chang, Lucy Casey, Sarah Wood, and Sonia Choudhury
 
-###Overview
+### Overview
+
 The Vault is a lifestyle blog and website, carefully curating articles covering trends in fashion, media, literature, culture, and eateries in London. Users can sign up, log in and leave comments and thoughts on articles. The intention was to also allow them to 'like' and 'pin' articles onto their own dashboard,which are features we'd like to implement.
 
 ### Technologies
@@ -47,11 +48,11 @@ The Vault is a lifestyle blog and website, carefully curating articles covering 
 
 ## Backend 
 
-<img src='https://i.imgur.com/jo8PKFz.png' />
+<img src='https://i.imgur.com/jo8PKFz.png' height='360px' width='250px' />
 
 ## Frontend
 
-<img src='https://i.imgur.com/qRZHsq7.png' />
+<img src='https://i.imgur.com/qRZHsq7.png' height='380px' width='240px' />
 
 ### Homepage
 
@@ -60,7 +61,15 @@ The Vault is a lifestyle blog and website, carefully curating articles covering 
 
 ### Wireframe
 
-<img src='https://i.imgur.com/rHxuzhU.png'/>
+Initial draw up of the landing page:
 
-###
-###
+<img src='https://i.imgur.com/rHxuzhU.png' height='400px' width='400px'/>
+
+### Frontend
+
+### Backend
+
+### Challenges
+
+### Modifications:
+- Search component, rating, pinning and dashboard
