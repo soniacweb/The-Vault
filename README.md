@@ -12,3 +12,54 @@ Evaluation
 ​
 * __Problem Solving__: Are you able to defend why you implemented your solution in a certain way? Can you demonstrated that you thought through alternative implementations? _(Note that this part of your feedback evaluation will take place during your one-on-one code review with your instructors, after you've completed the project.)_
 Coll
+
+### Installation
+- Mongod
+
+Back:
+- npm run seed
+- nodemon app.js
+
+Front:
+- npm run: front
+
+###Timeframe
+
+1 week
+
+###Team
+
+Aichi Chang, Lucy Casey, Sarah Wood, and Sonia Choudhury
+
+###Overview
+The Vault is a lifestyle blog and website, carefully curating articles covering trends in fashion, media, literature, culture, and eateries in London. Users can sign up, log in and leave comments and thoughts on articles. The intention was to also allow them to 'like' and 'pin' articles onto their own dashboard,which are features we'd like to implement.
+
+###Technologies
+
+- React.js
+- HTML
+- CSS, Bulma
+- Express
+- Mongoose
+- MongoDB
+
+### Components
+
+##Backend 
+
+<img src='https://i.imgur.com/jo8PKFz.png' />
+
+##Frontend
+
+<img src='https://i.imgur.com/qRZHsq7.png' />
+
+### Homepage
+
+- Hero image and title
+- Bottom Navbar
+
+###Wireframe
+
+<img src='https://i.imgur.com/rHxuzhU.png'/>
+###
+###
