@@ -178,7 +178,5 @@ const userSchema = new mongoose.Schema({
 ### Modifications and improvements:
 - Search component, rating feature does not record and save, pinning, create user dashboard
 - Develop articles under 'Current' section
-- Fix bug for logging out
-- Menu - change onClick to hover on mobile view
 - Create user dashboard
 - Messaging exchange feature for users under 'Clothing' section
