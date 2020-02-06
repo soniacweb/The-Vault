@@ -1,3 +1,5 @@
+### ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) 
+
 <img src='https://i.imgur.com/LmW8z5l.jpg'/>
 
 Evaluation
@@ -37,30 +39,96 @@ The Vault is a lifestyle blog and website, carefully curating articles covering 
 
 <img src='https://media.giphy.com/media/jTeawDs6hBHXyYkHtv/giphy.gif' />
 
+### Technical Requirements
+
+Work in a team, using git to code collaboratively.
+Build a full-stack application by making your own backend and your own front-end
+Use an Express API to serve your data from a Mongo database
+Consume your API with a separate front-end built with React
+Be a complete product which most likely means multiple relationships and CRUD functionality for at least a couple of models
+Implement thoughtful user stories/wireframes that are significant enough to help you know which features are core MVP and which you can cut
+Have a visually impressive design to kick your portfolio up a notch and have something to wow future clients & employers. ALLOW time for this.
+Be deployed online so it's publicly accessible.
+Have automated tests for at least one RESTful resource on the back-end. Improve your semployability by demonstrating a good understanding of testing principals.
+
+### Necessary Deliverables
+A working app hosted on the internet
+A link to your hosted working app in the URL section of your Github repo
+A git repository hosted on Github, with a link to your hosted project, and frequent commits dating back to the very beginning of the project
+A readme.md file with:
+An embedded screenshot of the app
+Explanations of the technologies used
+A couple paragraphs about the general approach you took
+Installation instructions for any dependencies
+Link to your user stories/wireframes – sketches of major views / interfaces in your application
+Link to your pitch deck/presentation – documentation of your wireframes, user stories, and proposed architecture
+Descriptions of any unsolved problems or major hurdles you had to overcome
 
 ### Technologies
 
 - React.js
-- HTML
-- CSS, Bulma
+- HTML5
+- CSS3 
+- Bulma
+- JavaScript(ES2019)
+- React.js
 - Express
 - Mongoose
 - MongoDB
+- Node.js
+- Babel
+- Webpack
+- Insomnia
+- GitHub
 
 ### Apis used:
-We created 6 individual apis for film, books, music, clothes, current, and our community page.
+We created 6 individual APIs for films, books, music, clothes, current, and our community page.
 
 We also used the Mapbox web services API for the community articles.
 
-### Components
 
-## Backend 
+### File Structure
 
 <img src='https://i.imgur.com/jo8PKFz.png' height='360px' width='250px' />
+<img src='https://i.imgur.com/qRZHsq7.png' height='380px' width='240px' />
 
 ## Frontend
 
-<img src='https://i.imgur.com/qRZHsq7.png' height='380px' width='240px' />
+We utilised React Hooks on the frontend. We used the Uber's React Map GL package for Mapbox for our community page, it has the popup function so the user will be able to check the information quickly.
+
+The comment feature was added for the project as we have several pages requiring this as feature. We pulled the comment form out to the main component, passed props updateData back to setData. The idea being, once the user left a comment, the comment will push to our single article's comment array and get rendered.
+
+The initial state
+```js
+const [data, setData] = useState( { comments: [] })
+```
+
+The original data remains the same, but the updateData will set the comments into our data
+
+```js
+  <CommentForm 
+    url={`/api/clothing/${props.match.params.id}/comments`}
+    updateData={setData}
+    data={data}
+  />
+```
+
+All comments will getrendered into the bulma comment template:
+
+``` js
+  <div className='columns'>
+    <div className='column'>
+      {data.comments.map((comment) => 
+        <div className="is-half" 
+          key={comment._id} > 
+          <div>{comment.content}</div>
+          <br />
+          <button className="delete" id={comment._id} onClick={(e) => handleDelete(e)}></button> 
+        </div>
+      )}
+    </div>
+  </div> 
+```
 
 ### Homepage
 
@@ -73,7 +141,6 @@ Initial draw up of the landing page:
 
 <img src='https://i.imgur.com/rHxuzhU.png' height='400px' width='400px'/>
 
-
 #### Community/Eateries and Pubs Page:
 
 <img src='https://media.giphy.com/media/fsOr0ZKs12tzSWorsz/giphy.gif' height='360px' width='600px' />
@@ -84,15 +151,34 @@ Initial draw up of the landing page:
 
 <img src='https://media.giphy.com/media/S4H6pDP9fxpFEs3vuB/giphy.gif' height='360px' width='600px' />
 
-#### Movies
+## Backend 
 
-<img src='https://media.giphy.com/media/ggo7Nwc2PbB5fMsnPe/giphy.gif' height='360px' width='600px' />
+We have four primary themes for our app and they all requireed different schemas. We therefore set up several different models and an additional user model in our backend.
 
-### Frontend
+```js
+const userSchema = new mongoose.Schema({ 
+  username: { type: String, required: true, unique: true }, 
+  email: { type: String, required: true },
+  password: { type: String, required: true  }, 
+  likes: [{ type: mongoose.Schema.ObjectId, ref: 'users' }]
+}, {
+  timestamps: true, 
+  toJSON: { 
+    transform(doc, json) {
+      return { 
+        username: json.username,
+        id: json._id,
+        likes: json.likes 
+      }
+    }
+  }
+})
+```
 
-### Backend
-
-### Challenges
-
-### Modifications:
-- Search component, rating, pinning and dashboard
+### Modifications and improvements:
+- Search component, rating feature does not record and save, pinning, create user dashboard
+- Develop articles under 'Current' section
+- Fix bug for logging out
+- Menu - change onClick to hover on mobile view
+- Create user dashboard
+- Messaging exchange feature for users under 'Clothing' section
